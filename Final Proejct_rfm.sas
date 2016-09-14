@@ -1,4 +1,4 @@
-libname Predmod "E:\Pranesh\GMAT\MS in Analytics\UTD\CoursWork\MKT 6337 - Predictive Marketing Analytics\Project\mustketc\SAS Datasets";
+libname Predmod "///...Path///...";
 
 proc print data = Predmod.merge(obs = 20);run;
 /* Working on RFM*/

@@ -1,4 +1,4 @@
-libname Predmod "E:\Pranesh\GMAT\MS in Analytics\UTD\CoursWork\MKT 6337 - Predictive Marketing Analytics\Project\mustketc\SAS Datasets";
+libname Predmod "///....Path ....///";
 
 proc print data = Predmod.ketchuppanel(obs = 20);run;
 data Predmod.ketchuppanel(drop = SY GE VEND ITEM Parent_Company Vendor VOL_EQ PRODUCT_TYPE);
